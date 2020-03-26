@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  pf_backend:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    image: pf_backend:latest
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/root/app
+
+volumes:
+  app:
