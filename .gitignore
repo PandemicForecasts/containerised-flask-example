@@ -6,6 +6,6 @@
 # Python
 __pycache__
 
-# Env
+# venv -- these folders are not OS-agnostic, so we use requirements.txt to record dependencies
 .venv
 venv
